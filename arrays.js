@@ -53,3 +53,13 @@ var z = "42";
 var w= Number(z);
 var q = z* 10;
 console.log(z);
+
+function factorialNum(number){
+    let newNum = 1;
+    for(i=1; i<=number; i++){
+        newNum*=i
+    }
+    console.log(number)
+}
+factorialNum(8)
+
